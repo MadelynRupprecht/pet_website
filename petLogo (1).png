@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<!--Head-->
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Paradigm Pet Professsionals</title>
+</head>
+  
+<!--Body-->
+<body>
+    <!--Header-->
+    <header>
+        <img src="petLogo (1).png" alt="Logo" width="100" height="100">
+
+        <h1>Home</h1>
+    </header>
+
+    <!--Nav/Menu/Search-->
+    <nav>
+        <a class="active" href="index.html">Home</a>
+        <a href="cats.html">Cats</a>
+        <a href="dogs.html">Dogs</a>
+        <a href="birds.html">Birds</a>
+    </nav>
+
+    <!--Main-->
+    <main>
+
+        <!--Section-->
+        <section>
+            <p>Pets are nature's gift to humanity. It has been scientifically proven that opening our homes and hearts to a 
+                pet increases our longevity and improves our overall quality of life as well as the lives of our pets. At Pet 
+                Paradigm Professionals, our mission is to offer resources to help you care for your furry, scaly, feathery, 
+                and slimy loved ones. Our pet experts—or “Pexperts”—have been working with pet owners and professionals alike 
+                for the past twelve years. They offer one-on-one consultations with current and prospective pet owners as well
+                 as group presentations designed for veterinary, pet shelter, and pet breeding professionals. 
+            </p>
+            <p>
+                Looking for basic pet care advice for the most common type of pets? Need additional help determining which 
+                type of pet is right for you and your family? We will work with you and provide tailored evidence-based pet 
+                care to ensure lifelong health and wellness of your new companion.  
+            </p>
+            <p>
+                Looking for your new best friend? The following organizations can help you find and adopt the perfect companion: 
+            </p>
+            <ul>
+                <li>General Adoption Resources: <a href="https://theshelterpetproject.org/" target="_blank">https://theshelterpetproject.org/</a></li>
+                <li>ASPCA: <a href="https://www.aspca.org/" target="_blank">https://www.aspca.org/</a></li>
+                <li>Fish Rescue: <a href="https://www.sterlingshelter.org/humane-society/koi-fish-rescue/" target="_blank">https://www.sterlingshelter.org/humane-society/koi-fish-rescue/</a></li>
+                <li>Snake Rescue: <a href="https://savethesnakes.org/snakerescuecall/" target="_blank">https://savethesnakes.org/snakerescuecall/</a></li>
+                <li>Bird Rescue: <a href="https://ftlob.rescuegroups.org/" target="_blank">https://ftlob.rescuegroups.org/</a></li>
+            </ul>
+            <p>
+                We are also happy to help you navigate the adoption process! We will guide you through each step in the process
+                 from determining which type of pet is best suited for your family and home environment, to completing the 
+                 necessary paperwork, to bringing your new loved one home. Please fill out our contact form to request a 
+                 consultation. We will contact you within 48 hours to schedule a consultation. All fields are required. 
+            </p>
+
+
+        <!--Contact Form-->
+            <form>
+                <label for="fName">Name:</label><br>
+                <input type="text" id="fName" name="fName" placeholder="Jane Doe" required><br>
+
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email" placeholder="JaneDoe@gmail.com" required><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="text" id="phone" name="phone" placeholder="123-456-7890" required><br>
+
+                <label for="tZone">Time Zone:</label><br>
+                <input type="text" id="tZone" name="tZone" placeholder="Central (US)" required><br>
+
+                <label for="pName">Pet's Name:</label><br>
+                <input type="text" id="pName" name="pName" placeholder="Pepper" required><br>
+
+                <label for="pType">Pet's Type:</label><br>
+                <input type="text" id="pType" name="pType" placeholder="Cat" required><br>
+
+                <label for="pAge">Pet's Age:</label><br>
+                <input type="text" id="pAge" name="pAge" placeholder="6 years" required><br>
+                <br>
+
+                <div class="buttons">
+                    <button id="create" class="submit_btn" onclick="submit_alert()">Submit</button>
+                </div>
+
+                <p><i>(All fields are required.)</i></p>
+            </form>
+
+            <!--JavaScript-->
+            <script>
+                function submit_alert() {
+                    alert("Your response is submitted");
+                }
+            </script>
+
+        </section>
+
+        <!--Home Image-->
+        <img src="screenShot (10).png" alt="Logo" width="350" height="300">
+
+    </main>
+
+    <!--Footer-->
+    <footer  id="footer" style="float: left; bottom: 0; width: 100%; height: 2.5rem; ">
+        <p>&copy  2024 | Madelyn Rupprecht</p>
+    </footer>
+</body>
+
+</html>
